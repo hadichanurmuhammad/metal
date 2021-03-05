@@ -62,7 +62,7 @@ body{
 
 .header {
     padding: 20px 0;
-    background-color: #f5f5f5;
+    background-color: #FAFAFA;
 }
 
 .header > .container {
@@ -96,10 +96,9 @@ body{
     background-image:
     linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url('../img/011.jpg');
-    background-size: 1500px;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
-    background-position: -100px 0;
 }
 
 .main > .container {
@@ -176,7 +175,12 @@ main:hover {
 }
 
 .card-body {
-    background-color: #f5f5f5;
+    background-color: #FAFAFA;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .card-title {
@@ -189,8 +193,108 @@ main:hover {
 .card-text {
     text-align: center;
     font-weight: bold;
-    margin-top: 10px;
     margin-bottom: 30px !important;
     color: tomato;
     font-size: 20px;
+}
+
+.cards {
+    margin-bottom: 50px;
+}
+
+.call {
+    background-color: #FAFAFA;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.call-subtext {
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.call-number {
+    color: tomato;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.call-number:hover {
+    color: tomato;
+}
+
+.products-title {
+    text-transform: uppercase;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.size {
+    font-size: 20px;
+}
+
+.photo {
+    height: 200px;
+}
+
+.small {
+    height: 100px;
+}
+
+.products-hr {
+    margin-bottom: 30px;
+}
+
+.map-call {
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.map-call:hover {
+    color: black;
+}
+
+.map-subtext {
+    font-weight: 500;
+    margin-top: 25px;
+}
+
+.wrapper {
+    width: 30%;
+    margin-top: 30px;
+}
+
+.map > .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.map {
+    background-color: #FAFAFA;
+    margin-top: 50px;
+    border-top: 1px solid lightgrey;
+    padding-bottom: 30px;
+}
+
+.maps {
+    margin-top: 100px;
+}
+
+.map-title {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.footer {
+    height: 40px;
+    background-color: black;
+}
+
+.footers-subtext {
+    color: #fff;
+    transform: translateY(8px);
 }
