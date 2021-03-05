@@ -298,3 +298,27 @@ main:hover {
     color: #fff;
     transform: translateY(8px);
 }
+
+@media (max-width: 988px) {
+    .map > .container {
+        flex-direction: column;
+    }
+
+    .wrapper {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 764px) {
+    .header > .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 566px) {
+    .row > .col {
+        min-width: 80% !important;
+    }
+}
