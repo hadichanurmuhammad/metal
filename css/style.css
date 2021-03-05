@@ -303,6 +303,26 @@ main:hover {
     transform: translateY(8px);
 }
 
+.modal-label {
+    min-width: 100%;
+}
+
+.modal-input {
+    min-width: 100%;
+    padding: 10px 10px;
+}
+
+.forms-title {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.form-title {
+    font-size: 20px;
+    font-weight: 400;
+}
+
 @media (max-width: 988px) {
     .map > .container {
         flex-direction: column;
