@@ -157,6 +157,7 @@ main:hover {
 }
 
 .card-img-top {
+    transition: 0.5s;
     display: inline-block;
     object-fit: cover;
     width: 100% !important;
@@ -366,6 +367,12 @@ main:hover {
 
     .watsapp-link {
         display: block;
+    }
+}
+
+@media(max-width: 574px) {
+    .row > .col {
+        min-width: 50% !important;
     }
 }
 
